@@ -2,5 +2,6 @@ export interface ITransactions {
   id: string
   title: string
   amount: number
-  session_id: string
+  created_at: string
+  session_id?: string
 }
